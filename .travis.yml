@@ -38,6 +38,3 @@ before_install:
 
 install:
   - mvn -q -T 2C -DskipTests=true clean install
-
-script:
-  - mvn -Pcontrib-check verify
